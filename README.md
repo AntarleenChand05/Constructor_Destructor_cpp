@@ -83,12 +83,6 @@ The `ctime` library enables access to the system’s current date and time, allo
 4. Define a `display()` function to show the current date.
 5. Instantiate an object in `main()` with system date parameters and call `display()`.
 
-### Experiment 6: Object Count Tracking Using Constructor and Destructor
-1. Define a global static variable `objectCount` initialized to zero.
-2. In the class constructor, increment `objectCount` and print the number of objects created so far.
-3. In the destructor, decrement `objectCount` and print the number of objects remaining after destruction.
-4. Create multiple objects in `main()`, including a temporary object inside a nested block to demonstrate constructor and destructor invocation.
-
 ***
 
 ## Conclusion
